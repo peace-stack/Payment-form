@@ -1,0 +1,98 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		 #body{
+		 	padding: 10px 0px;
+		 	display: flex;
+		 	justify-content: center;
+		 }
+
+			#bus{
+			background-color:purple;
+			width:80px;
+			border-radius: 10px;
+			}
+			#B{
+				padding-left: 14px;
+				padding-top:0px;
+				color:white;
+				font-size:75px;
+
+				}
+
+					#body2{
+				padding: 10px 120px;
+			 	display: flex;
+			 	justify-content: center;
+
+				}
+
+				#first-heading{
+				font-size: 25px;
+				display: flex;
+		 		justify-content: center;
+		 		}
+				#second-heading{
+					font-size: 18px;
+					display: flex;
+		 		justify-content: center;
+		 		margin-top: 10px;
+
+				}
+		        #forms{
+		        	display: flex;
+		        	flex-direction: row;
+		        	justify-content: space-between;
+		        	margin-top: 25px;
+		        	margin-bottom: 10px;
+		        	font-size: 20px;
+		    
+		        }
+		        #row1{
+		        	display: flex;
+		        	flex-flow: row-wrap;
+		        	align-items: left;
+		        }
+
+		        #first-name{
+		        	border-radius: 3px;
+		        	width: 250px;
+		        	height: 25px;
+		        	margin-top: 10px;
+
+
+		        }
+
+		         #last-name{
+		        	border-radius: 4px;
+		        	width: 250px;
+		        	margin-right: 160px;
+		        	height: 25px;
+		        	margin-top: 10px;
+		        }
+		         #Username{
+		        	border-radius: 3px;
+		        	width: 525px;
+		        	height: 25px;
+		        	margin-top: 15px;
+		        	border-color: 1px solid-grey;
+
+		        }
+
+
+
+		        #row2{
+		       		margin-right: 150px;
+		        	color: grey;
+		       }
+
+
+
+	
+
+
+
+
+
+
