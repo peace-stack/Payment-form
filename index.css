@@ -178,13 +178,7 @@ body{
         height: 20px;
       }
 
-       #section-box{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-      
-
-    }
+    
 
 
 
@@ -236,6 +230,8 @@ body{
 
     .sectionB{
         display: flex;
+
+        
         justify-content: right;
         background-color: blue;
        
