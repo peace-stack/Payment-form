@@ -4,7 +4,10 @@ padding: 0;
 }
 body{
 	font-family: "Asap", sans-serif;
-	background-color: #f1f1f1
+	background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -12,20 +15,25 @@ body{
     #body1{
 	padding: 20px 0px;
 	display: flex;
+    flex-direction: column;
 	justify-content: center;
 	}
 
 	#bus{
+    
 	background-color:indigo;
-	width: 170%;
-	padding:0px;
+	width: 110px;
+    height: 100px;
 	border-radius: 10px;
+    display: flex;
+    align-self: center;
+    flex-flow: column;
 	}
 	#B{
 	display: flex;
-	justify-content: center;
+    align-self: center;
 	color:white;
-	font-size:75px;
+	font-size:80px;
 	}
 
 	#first-heading{
@@ -42,32 +50,39 @@ body{
 	}
 
 	#row1{
-	margin-top: 10px;
-	padding:0px 15px;
+	padding:10px 15px;
 	font-size: 20px;
-	}
+    color: black;
+}
+   
+	
+
+ 
+
+
    #Cart-body{
 	padding: 10px 15px;
-
-
-    }
-
-    #cart-container{
-    border: 1px solid grey;
     color: white;
 
-     
+
     }
+
+
     
     .dollar-rate{
     	display: flex;
-     	justify-content: space-between;
+     	flex-direction: column;
     	padding: 0px 10px;
     	padding-top: 5px;
     	color:black;
     	font-weight: bold;
     	font-size: 15px;
     	background-color: white;
+    }
+
+
+    .dollar-value{
+        float: left;
     }
 
     .description{
@@ -93,7 +108,7 @@ body{
     #click-redeem{
     	padding: 5px 10px;
     	display: flex;
-    	p
+    	
     
     }
 
@@ -101,6 +116,7 @@ body{
         padding: 10px 0;
         font-size: 25px;
         font-weight: bold;
+        color: black;
 
     }
 
@@ -119,9 +135,10 @@ body{
      .row{
      	display: flex;
      	flex-direction: column;
-     	padding: 5px 0px;
+     	padding: 10px 0px;
      	width: 100%;
         border-radius: 3px;
+        color: black;
      }
 
        #row1{
