@@ -19,43 +19,39 @@
 		</div>
 
 		<div id="Cart-body">
-		    <p id="row1">Your cart</p>
-		    <div>
-	             
-	              	<div class="dollar-rate">
-						<p>Product name</p>
-						<p>$12</p>
-						<p class="description">Brief description</p>
-     					<hr>
-	 		    	</div>
-	
-	                <div class="dollar-rate">
-	    				<p>Second Product</p>
-	    				<p>$8</p>
-	    				<p class="description">Brief description</p>
-	    				<hr>
-					</div>
 
+		    <div id="your-cart">
+				<p id="row1">Your cart</p>
+				<div class="dollar-rate">
+					<p>Product name</p>
+					<p class="card-price">$12</p>
+					<p class="description">Brief description</p>
+					<hr>
+				</div>
+				<div class="dollar-rate">
+					<p>Second Product</p>
+					<p class="card-price">$8</p>
+					<p class="description">Brief description</p>
+					<hr>
+				</div>
+				<div class="dollar-rate">
+					<p>Third item</p>
+					<p class="card-price">$5</p>
+					<p class="description">Brief description</p>
+					<hr>
+				</div>
+				<div id="promo-box">
 					<div class="dollar-rate">
-	    				<p>Third item</p>
-	    				<p>$5</p>
-	                    <p class="description">Brief description</p>
-	    				<hr>
-					</div>
-
-					<div id="promo-box">
- 						<div class="dollar-rate">
-	        				<p>Promo code</p>
-	        				<p>-$5</p>
-	        				<p class="description">EXAMPLE</p>
-	        			    <hr>
-				       </div>
-			 		</div>
-
-					<div class="dollar-rate" >
-	         			<p>Total(USD)</p>
-	        			<p>$20</p>
-	            	</div>
+						<p>Promo code</p>
+						<p class="card-price">-$5</p>
+						<p class="description">EXAMPLE</p>
+						<hr>
+				   </div>
+				</div>
+				<div class="dollar-rate" >
+					<p>Total(USD)</p>
+					<p class="card-price">$20</p>
+				</div>
 	        <div>
             <div id="form-redeem">
   				<form id="click-redeem">
@@ -63,7 +59,63 @@
 	    			<button id="button">Redeem</button>
     			</form>
         	</div>
-        </div>
+        	</div>
+			</div>
+
+			<div id="billing-address">
+				<div>
+					<div>
+						<p id="address-border">Billing address</p>
+					</div>
+
+				</div>
+
+				<form class="row">
+					<p>Firstname</p>
+					<input id="first-name" type="text" va=" Frst name">
+					<p>Lastname</p>
+					<input id="last-name" type="text" name=" Frst name">
+				</form>
+
+				<form id="username">
+					<p>Username</p>
+					<div id="username-input-field">
+						<button id="click">@</button>
+						<input type="text" placeholder="Username" id="username-input">
+					</div>
+				</form>
+
+				<form class="row">
+					<p>Email (Optional )</p>
+					<input id="Email" type="Email" placeholder="you@example.com">
+				</form>
+
+				<form class="row">
+					<p>Address</p>
+					<input id="Address"type="text" placeholder="1234 Main St">
+				</form>
+
+				<form class="row">
+					<p>Address 2 (Optional)</p>
+					<input id="Address2" type="text" name=" " placeholder="Apartment or suite">
+				</form>
+
+				<form class="row">
+					<p>Country</p>
+					<input id="Country" type="text" name=" Country" placeholder="choose">
+				</form>
+
+				<form class="row">
+					<p>State</p>
+					<input type="text" name="State" placeholder="choose">
+				</form>
+
+				<form class="row">
+					<p>Zip</p>
+					<input id="Zip"type="text" name="Zip">
+				</form>
+			</div>
+		</div>
     
 
 
@@ -71,56 +123,8 @@
 
 
             			
-            			
-         
-            		<div>
-					   	<div>
-					 	<p id="address-border">Billing address</p>
-					 	</div>
 
-					 <div>
-			
-						<form class="row">
-							<p>Firstname</p>
-							<input id="first-name" type="text" va=" Frst name">
-							<p>Lastname</p>
-							<input id="last-name" type="text" name=" Frst name">
-						</form>
 
-						<form id="username">
-							<p>Username</p>
-							<button id="click">@</button><input type="text" placeholder="Username">
-						</form>
-
-						<form class="row">
-							<p>Email (Optional )</p>
-							<inp ut id="Email" type="Email" placeholder="you@example.com">
-						</form>
-
-						<form class="row">
-							<p>Address</p>
-							<input id="Address"type="text" placeholder="1234 Main St">
-						</form>
-
-						<form class="row">
-							<p>Address 2 (Optional)</p>
-							<input id="Address2" type="text" name=" " placeholder="Apartment or suite">
-						</form>
-
-						<form class="row">
-							<p>Country</p>
-							<input id="Country" type="text" name=" Country" placeholder="choose">
-						</form>
-
-						<form class="row">
-							<p>State</p>
-							<input type="text" name="State" placeholder="choose">
-						</form>
-
-						<form class="row">
-							<p>Zip</p>
-							<input id="Zip"type="text" name="Zip">
-						</form>
 
 						<div id="select">
 							    <hr class="horizontal-line">
@@ -132,11 +136,11 @@
 							</form>
 							<hr class="horizontal-line">
 						</div>
-				</div>	
+
 
             		
 		                		
-		                		
+		            <div id="second-section">
 		                	<div id="card-type">
 							<h3>Payment</h3>
 								<ul>
@@ -182,17 +186,9 @@
 									  <a class="link" href="#">Support </a>
 								</div>
 							</div>
-
-
-
-
-															
-
-							
-
 						</div>
 		        </div>   
-</div>    
+   
 
 
 

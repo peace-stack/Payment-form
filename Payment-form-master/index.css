@@ -63,23 +63,20 @@ body{
    #Cart-body{
 	padding: 10px 15px;
     color: white;
-
-
     }
 
 
     
     .dollar-rate{
-    	display: flex;
-     	flex-direction: column;
-    	padding: 0px 10px;
-    	padding-top: 5px;
+    	padding: 5px 10px;
     	color:black;
     	font-weight: bold;
     	font-size: 15px;
     	background-color: white;
     }
-
+    .card-price{
+        float: right;
+    }
 
     .dollar-value{
         float: left;
@@ -99,9 +96,11 @@ body{
 
     }
 
+
     #form-redeem{
-    	border: 1px 1px solid grey;
-    	padding-bottom: 10px;
+    	border: 1px solid grey;
+      margin-top: 15px;
+      border-radius: 5px;
     	
     }
 
@@ -124,7 +123,7 @@ body{
     	width: 100%;
     	height: 30px;
     	border-radius: 3px;
-    	border: 1px 1px solid grey;
+    	border: 1px solid grey;
     }
 
     #button{
@@ -151,19 +150,22 @@ body{
       #username{
         display: flex;
         flex-direction: column;
-        padding: 5px 10px;
+        padding: 5px 0;
         color: black;
         
         
      }
-
+    #username-input-field{
+        display: flex;
+    }
      #click{
         background-color: grey;
         color: white;
-        display:flex;
-        flex-wrap: wrap; 
+        width: 4%;
      }
-
+    #username-input{
+        width: 96%;
+    }
      #select{
           padding: 15px 15px;
          display: flex;
@@ -172,8 +174,7 @@ body{
 
      }
 
-     
-     }
+
 
      #horizontal-line{
         color: grey;
@@ -213,7 +214,7 @@ body{
      margin-top:20px;
         width: 100%;
         height: 30px;
-        padding-left:0 50px;
+        padding-left:50px;
         background-color: blue;
         color :white;
         border :1px solid grey;
@@ -249,8 +250,30 @@ body{
     
     
 
-b
+
 
     @media only screen and (min-width: 768px){
+        #Cart-body{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #your-cart{
+            flex: 1;
+            margin-left: 40px;
+        }
+        #billing-address{
+            flex: 1;
+        }
+
+        body{
+          padding: 0 200px;        }
+
+        #select{
+
+            flex: 1;
+            margin-left: 
+        }
+
+    }
 
     
