@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
+	 <head>
 		<title>PAYMENY-FORMS</title>
 		<link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
 	</head>
@@ -12,61 +12,59 @@
 	<body>
 
 	        
-				<div id="body1">
-						<h1 id="bus"><p id="B">B</p></h1>
-						<h1 id="first-heading">Checkout Form </h1>
-						<h3 id="second-heading">Below is an example from built entirely with Bootstrap's form controls.Each required form group has a validation state that can be triggerd by attempting to submit the form without completing it
-				</div>
+		<div id="body1">
+			<h1 id="bus"><p id="B">B</p></h1>
+			<h1 id="first-heading">Checkout Form </h1>
+			<h3 id="second-heading">Below is an example from built entirely with Bootstrap's form controls.Each required form group has a validation state that can be triggerd by attempting to submit the form without completing it</h3>
+		</div>
 
-			<div id="Cart-body">
-			    <p id="row1">Your cart</p>
-			    <div >
-		             
-		              	<div class="dollar-rate">
-							<p>Product name</p>
-							<p>$12</p>
-							<p class="description">Brief description</p>
-	     					<hr>
-		 		    	</div>
-		
-		                <div class="dollar-rate">
-		    				<p>Second Product</p>
-		    				<p>$8</p>
-		    				<p class="description">Brief description</p>
-		    				<hr>
-						</div>
+		<div id="Cart-body">
+		    <p id="row1">Your cart</p>
+		    <div>
+	             
+	              	<div class="dollar-rate">
+						<p>Product name</p>
+						<p>$12</p>
+						<p class="description">Brief description</p>
+     					<hr>
+	 		    	</div>
+	
+	                <div class="dollar-rate">
+	    				<p>Second Product</p>
+	    				<p>$8</p>
+	    				<p class="description">Brief description</p>
+	    				<hr>
+					</div>
 
-						<div class="dollar-rate">
-		    				<p>Third item</p>
-		    				<p>$5</p>
-		                    <p class="description">Brief description</p>
-		    				<hr>
-						</div>
+					<div class="dollar-rate">
+	    				<p>Third item</p>
+	    				<p>$5</p>
+	                    <p class="description">Brief description</p>
+	    				<hr>
+					</div>
 
-						<div id="promo-box">
-							<div class="dollar-rate">
-		        				<p>Promo code</p>
-		        				<p>-$5</p>
-		        				<p class="description">EXAMPLE</p>
-		        			    <hr>
-					       </div>
-				 		</div>
+					<div id="promo-box">
+ 						<div class="dollar-rate">
+	        				<p>Promo code</p>
+	        				<p>-$5</p>
+	        				<p class="description">EXAMPLE</p>
+	        			    <hr>
+				       </div>
+			 		</div>
 
-						<div class="dollar-rate" >
-		         			<p>Total(USD)</p>
-		        			<p>$20</p>
-		            	</div>
-		        <div>
-		
-
-			            <div id="form-redeem">
-			      				<form id="click-redeem">
-			        			<input type="text" placeholder="Promo code" id="place-holder">
-			        			<button id="button">Redeem</button>
-			        		</form>
-			        	</div>
-	        </div>
-            
+					<div class="dollar-rate" >
+	         			<p>Total(USD)</p>
+	        			<p>$20</p>
+	            	</div>
+	        <div>
+            <div id="form-redeem">
+  				<form id="click-redeem">
+	    			<input type="text" placeholder="Promo code" id="place-holder">
+	    			<button id="button">Redeem</button>
+    			</form>
+        	</div>
+        </div>
+    
 
 
 
@@ -75,18 +73,7 @@
             			
             			
          
-            			
-
-            		
-		                		
-		                		
-		                	
-
-		        
-
-		             
-
-				<div>
+            		<div>
 					   	<div>
 					 	<p id="address-border">Billing address</p>
 					 	</div>
@@ -102,13 +89,12 @@
 
 						<form id="username">
 							<p>Username</p>
-							<button id="click">@</button>
-							<input type="text" placeholder="Username">
+							<button id="click">@</button><input type="text" placeholder="Username">
 						</form>
 
 						<form class="row">
 							<p>Email (Optional )</p>
-							<input id="Email" type="Email" placeholder="you@example.com">
+							<inp ut id="Email" type="Email" placeholder="you@example.com">
 						</form>
 
 						<form class="row">
@@ -137,25 +123,28 @@
 						</form>
 
 						<div id="select">
-							<hr class="horizontal-line">
-							<ul id="ul">
-								<li>Shipping address is the  same as my billing address </li>
-								<li>Save this information for next time </li>
-							</ul>
+							    <hr class="horizontal-line">
+							<form>
+								<input type="checkbox">
+								<label>Shipping address is the  same as my billing address </label><br>
+								<input type="checkbox">
+								<label>Save this information for next time </label>
+							</form>
 							<hr class="horizontal-line">
 						</div>
-					</div>
+				</div>	
 
-
-
-<!-- 						<div>
-							<h3 id="payment">Payment</h3>
-							<ul id="card-type">
-								<li>Credit card</li>
-								<li>Debit card</li>
-								<li>Paypal</li>
-							</ul>
-						</div>
+            		
+		                		
+		                		
+		                	<div id="card-type">
+							<h3>Payment</h3>
+								<ul>
+									<li>Credit card</li>
+									<li>Debit card</li>
+									<li>Paypal</li>
+								</ul>
+							</div>
 
 						<div>
 							<div class="card-details">
@@ -178,13 +167,36 @@
 								<p>CVV</p>
 								<form class="card-label"><input type="text"></form>
 							</div>
+
+							<hr id="last-line">
+
+							<div id="check">
+								<button id="checkbox">Continue to Checkout</button>
+							</div>
+
+							<div id="footer">
+							 	<p id="date">2017-2019 Company Name</p>
+								<div>
+									 <a class="link"href="#"> Privacy </a>
+									  <a class="link"href="#"> Terms  </a>
+									  <a class="link" href="#">Support </a>
+								</div>
+							</div>
+
+
+
+
+															
+
+							
+
 						</div>
 		        </div>   
 </div>    
 
 
 
- -->	
+	
 			
    </body>
 </html>
